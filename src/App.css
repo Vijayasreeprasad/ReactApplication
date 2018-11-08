@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.modal-content{
+  float: left;
+  width: 100%;
+}
+.form-buttons .btn{
+  margin-right: 15px;
+}
+.move-left{
+    right: 40px;
+    font-size: 14px;
+    color:gray;
+    position: absolute;
+    cursor: pointer;
+}
+.move-right{
+    right: 20px;
+    font-size: 14px;
+    color:gray;
+    position: absolute;
+    cursor: pointer;
+}
+
+#sortable { margin: 0; padding: 0; width: 900px; }
+.claer-btn{
+  margin-left:10px;
+}
